@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="w05_battle text_center" style="display:none;">
+        <div class="text_center">
+        <ul class="text_center list">
+            <li>
+                <div class="your_monster text_center">
+                    <p class="pokemonname">ヒトカゲ</p>
+                    <div class="hp_box">
+                        <div class="current_hp" id="player_current_hp03"></div>
+                    </div>
+                    <p id="yourHp">100</p>
+                    <img src="img/monster1.jpeg" id = "monster1" class="" alt="">
+                </div>
+            </li>    
+            <li>
+                <div class="enemy_monster text_center">
+                    <p>ピカチュウ</p>
+                    <div class="hp_box">
+                        <div class="current_hp" id="applicant_current_hp03"></div>
+                    </div>  
+                    <p id="enemyHp">100</p> 
+                    <img src="img/monster1.jpeg" id = "monster1" class="" alt="">        
+                </div>   
+            </li>
+        </ul>     
+        </div> 
+        <div class="text_center">
+        <ul class="list">
+            <li><button id="attack_click_1">戦う</button></li>
+            <li><button id="attack_click_2">回復する</button></li>
+            <li><button id="attack_click_3">粘る</button></li>
+        </ul>
+        </div>
+        <!-- バトルの実況 -->
+        <div>
+        <ul class="list">
+            <li>
+                <p class="yourname">▶︎あなた</p>
+                <div class="list">
+                <p id="comment_your">アクションの選択をしよう</p>
+                </div>
+            </li>
+            <li>
+                <p>▶︎相手</p>
+                <div class="list"></div>
+                <p id="comment_enemy">・・・</p>
+                </div>
+            </li>
+        </ul>
+        </div>         
+    </div>
+    <div class="cp_06_lose_wrapper" style="display:none;">
+        <p>あなたの負けです...</p>
+    </div>
+    <div class="cp_06_win_wrapper" style="display:none;">
+        <p>あなたの勝ちです！！</p>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/opning.js"></script>
+<script src="js/fight.js"></script>
+</body>
+</html>
