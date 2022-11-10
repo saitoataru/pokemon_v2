@@ -73,6 +73,7 @@ function attackModel(){
             enemyHp = enemyHp - zenigame_waza[a].attack_val;
             console.log(`ゼニガメが${zenigame_waza[a].wazaname}を繰り出した!${zenigame_waza[a].attack_val}のダメージを与えた`)
             $(".comment_your").text(`ゼニガメが${hitokage_waza[a].wazaname}を繰り出した!${hitokage_waza[a].attack_val}のダメージを与えた`);
+            $(".yourpic").attr('src',zenigame_waza[a].pic);
             $(".enemyHp").text(enemyHp);
             enemy_action();
         }
@@ -81,18 +82,21 @@ function attackModel(){
             enemyHp = enemyHp - hitokage_waza[a].attack_val;
             console.log(`ヒトカゲが${hitokage_waza[a].wazaname}を繰り出した!${hitokage_waza[a].attack_val}のダメージを与えた`)
             $(".comment_your").text(`ヒトカゲが${hitokage_waza[a].wazaname}を繰り出した!${hitokage_waza[a].attack_val}のダメージを与えた`);
+            $(".yourpic").attr('src',hitokage_waza[a].pic);
             $(".enemyHp").text(enemyHp);
             enemy_action();
         }else if(pokemon_name==="フシギダネ"){
             enemyHp = enemyHp - fushigidane_waza[a].attack_val;
             console.log(`フシギダネが${fushigidane_waza[a].wazaname}を繰り出した!${fushigidane_waza[a].attack_val}のダメージを与えた`)
             $(".comment_your").text(`フシギダネが${hitokage_waza[a].wazaname}を繰り出した!${hitokage_waza[a].attack_val}のダメージを与えた`);
+            $(".yourpic").attr('src',fushigidane_waza[a].pic);
             $(".enemyHp").text(enemyHp);
             enemy_action();
         }else if(pokemon_name==="ゼニガメ"){
             enemyHp = enemyHp - zenigame_waza[a].attack_val;
             console.log(`ゼニガメが${zenigame_waza[a].wazaname}を繰り出した!${zenigame_waza[a].attack_val}のダメージを与えた`)
             $(".comment_your").text(`ゼニガメが${hitokage_waza[a].wazaname}を繰り出した!${hitokage_waza[a].attack_val}のダメージを与えた`);
+            $(".yourpic").attr('src',zenigame_waza[a].pic);
             $(".enemyHp").text(enemyHp);
             enemy_action();
         }
@@ -101,18 +105,21 @@ function attackModel(){
             enemyHp = enemyHp - hitokage_waza[a].attack_val;
             console.log(`ヒトカゲが${hitokage_waza[a].wazaname}を繰り出した!${hitokage_waza[a].attack_val}のダメージを与えた`)
             $(".comment_your").text(`ヒトカゲが${hitokage_waza[a].wazaname}を繰り出した!${hitokage_waza[a].attack_val}のダメージを与えた`);
+            $(".yourpic").attr('src',hitokage_waza[a].pic);
             $(".enemyHp").text(enemyHp);
             enemy_action();
         }else if(pokemon_name==="フシギダネ"){
             enemyHp = enemyHp - fushigidane_waza[a].attack_val;
             console.log(`フシギダネが${fushigidane_waza[a].wazaname}を繰り出した!${fushigidane_waza[a].attack_val}のダメージを与えた`)
             $(".comment_your").text(`フシギダネが${hitokage_waza[a].wazaname}を繰り出した!${hitokage_waza[a].attack_val}のダメージを与えた`);
+            $(".yourpic").attr('src',fushigidane_waza[a].pic);
             $(".enemyHp").text(enemyHp);
             enemy_action();
         }else if(pokemon_name==="ゼニガメ"){
             enemyHp = enemyHp - zenigame_waza[a].attack_val;
             console.log(`ゼニガメが${zenigame_waza[a].wazaname}を繰り出した!${zenigame_waza[a].attack_val}のダメージを与えた`)
             $(".comment_your").text(`ゼニガメが${hitokage_waza[a].wazaname}を繰り出した!${hitokage_waza[a].attack_val}のダメージを与えた`);
+            $(".yourpic").attr('src',zenigame_waza[a].pic);
             $(".enemyHp").text(enemyHp);
             enemy_action();
         }
@@ -121,18 +128,21 @@ function attackModel(){
             enemyHp = enemyHp - hitokage_waza[a].attack_val;
             console.log(`ヒトカゲが${hitokage_waza[a].wazaname}を繰り出した!${hitokage_waza[a].attack_val}のダメージを与えた`)
             $(".comment_your").text(`ヒトカゲが${hitokage_waza[a].wazaname}を繰り出した!${hitokage_waza[a].attack_val}のダメージを与えた`);
+            $(".yourpic").attr('src',hitokage_waza[a].pic);
             $(".enemyHp").text(enemyHp);
             enemy_action();
         }else if(pokemon_name==="フシギダネ"){
             enemyHp = enemyHp - fushigidane_waza[a].attack_val;
             console.log(`フシギダネが${fushigidane_waza[a].wazaname}を繰り出した!${fushigidane_waza[a].attack_val}のダメージを与えた`)
             $(".comment_your").text(`フシギダネが${hitokage_waza[a].wazaname}を繰り出した!${hitokage_waza[a].attack_val}のダメージを与えた`);
+            $(".yourpic").attr('src',fushigidane_waza[a].pic);
             $(".enemyHp").text(enemyHp);
             enemy_action();
         }else if(pokemon_name==="ゼニガメ"){
             enemyHp = enemyHp - zenigame_waza[a].attack_val;
             console.log(`ゼニガメが${zenigame_waza[a].wazaname}を繰り出した!${zenigame_waza[a].attack_val}のダメージを与えた`)
             $(".comment_your").text(`ゼニガメが${hitokage_waza[a].wazaname}を繰り出した!${hitokage_waza[a].attack_val}のダメージを与えた`);
+            $(".yourpic").attr('src',zenigame_waza[a].pic);
             $(".enemyHp").text(enemyHp);
             enemy_action();
         }
@@ -141,18 +151,21 @@ function attackModel(){
             enemyHp = enemyHp - hitokage_waza[a].attack_val;
             console.log(`ヒトカゲが${hitokage_waza[a].wazaname}を繰り出した!${hitokage_waza[a].attack_val}のダメージを与えた`)
             $(".comment_your").text(`ヒトカゲが${hitokage_waza[a].wazaname}を繰り出した!${hitokage_waza[a].attack_val}のダメージを与えた`);
+            $(".yourpic").attr('src',hitokage_waza[a].pic);
             $(".enemyHp").text(enemyHp);
             enemy_action();
         }else if(pokemon_name==="フシギダネ"){
             enemyHp = enemyHp - fushigidane_waza[a].attack_val;
             console.log(`フシギダネが${fushigidane_waza[a].wazaname}を繰り出した!${fushigidane_waza[a].attack_val}のダメージを与えた`)
             $(".comment_your").text(`フシギダネが${hitokage_waza[a].wazaname}を繰り出した!${hitokage_waza[a].attack_val}のダメージを与えた`);
+            $(".yourpic").attr('src',fushigidane_waza[a].pic);
             $(".enemyHp").text(enemyHp);
             enemy_action();
         }else if(pokemon_name==="ゼニガメ"){
             enemyHp = enemyHp - zenigame_waza[a].attack_val;
             console.log(`ゼニガメが${zenigame_waza[a].wazaname}を繰り出した!${zenigame_waza[a].attack_val}のダメージを与えた`)
             $(".comment_your").text(`ゼニガメが${hitokage_waza[a].wazaname}を繰り出した!${hitokage_waza[a].attack_val}のダメージを与えた`);
+            $(".yourpic").attr('src',zenigame_waza[a].pic);
             $(".enemyHp").text(enemyHp);
             enemy_action();
         }
@@ -226,12 +239,12 @@ function validationJudge(){
 function result_battle(){
     if(mymonsterHp <= 0){
         console.log("負け");
-        // $(".cp_05_01_wrapper").fadeOut(1000);
-        // $(".cp_06_lose_wrapper").fadeIn(500);
+        $(".cp_05_01_wrapper").fadeOut(1000);
+        $(".cp_06_lose_wrapper").fadeIn(500);
     } else if(enemyHp <= 0){
         console.log("勝ち");
-        // $(".cp_05_01_wrapper").fadeOut(1000);
-        // $(".cp_06_win_wrapper").fadeIn(500);
+        $(".cp_05_01_wrapper").fadeOut(1000);
+        $(".cp_06_win_wrapper").fadeIn(500);
     }else if(mymonsterHp<=0&&enemyHp<=0){
         console.log("引き分け");
     }
